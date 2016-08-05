@@ -1,0 +1,388 @@
+/* #f16529  */
+/* #e44d26 */
+/* line 4, ../sass/main.scss */
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+/* line 10, ../sass/main.scss */
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/* line 15, ../sass/main.scss */
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/* line 20, ../sass/main.scss */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/* line 29, ../sass/main.scss */
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+
+/* line 38, ../sass/main.scss */
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 44, ../sass/main.scss */
+textarea {
+  resize: vertical;
+}
+
+/* line 48, ../sass/main.scss */
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/* ===== Initializr Styles ==================================================
+   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
+   ========================================================================== */
+/* line 60, ../sass/main.scss */
+body {
+  font: 16px/26px Helvetica, Helvetica Neue, Arial;
+}
+
+/* line 64, ../sass/main.scss */
+.wrapper {
+  width: 90%;
+  margin: 0 5%;
+}
+
+/* ===================
+    ALL: colorize Theme
+   =================== */
+/* line 73, ../sass/main.scss */
+.header-container {
+  border-bottom: 20px solid #2F4F4F;
+}
+
+/* line 77, ../sass/main.scss */
+.footer-container,
+.main aside {
+  border-top: 20px solid #2F4F4F;
+}
+
+/* line 82, ../sass/main.scss */
+.header-container,
+.footer-container,
+.main aside {
+  background: #008B8B;
+}
+
+/* line 88, ../sass/main.scss */
+.title {
+  color: white;
+}
+
+/* ==============
+    MOBILE: Menu
+   ============== */
+/* line 96, ../sass/main.scss */
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+/* line 102, ../sass/main.scss */
+nav a {
+  display: block;
+  margin-bottom: 10px;
+  padding: 15px 0;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  background: #2F4F4F;
+}
+
+/* line 115, ../sass/main.scss */
+nav a:hover,
+nav a:visited {
+  color: white;
+}
+
+/* line 120, ../sass/main.scss */
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* ==============
+    MOBILE: Main
+   ============== */
+/* line 128, ../sass/main.scss */
+.main {
+  padding: 30px 0;
+}
+
+/* line 132, ../sass/main.scss */
+.main article h1 {
+  font-size: 2em;
+}
+
+/* line 136, ../sass/main.scss */
+.main aside {
+  color: white;
+  padding: 0px 5% 10px;
+}
+
+/* line 141, ../sass/main.scss */
+.footer-container footer {
+  color: white;
+  padding: 20px 0;
+}
+
+/* ===============
+    ALL: IE Fixes
+   =============== */
+/* line 150, ../sass/main.scss */
+.ie7 .title {
+  padding-top: 20px;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+@media only screen and (min-width: 480px) {
+  /* ====================
+      INTERMEDIATE: Menu
+     ==================== */
+  /* line 183, ../sass/main.scss */
+  nav a {
+    float: left;
+    width: 27%;
+    margin: 0 1.7%;
+    padding: 25px 2%;
+    margin-bottom: 0;
+  }
+
+  /* line 191, ../sass/main.scss */
+  nav li:first-child a {
+    margin-left: 0;
+  }
+
+  /* line 195, ../sass/main.scss */
+  nav li:last-child a {
+    margin-right: 0;
+  }
+
+  /* ========================
+      INTERMEDIATE: IE Fixes
+     ======================== */
+  /* line 204, ../sass/main.scss */
+  nav ul li {
+    display: inline;
+  }
+
+  /* line 208, ../sass/main.scss */
+  .oldie nav a {
+    margin: 0 0.7%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  /* ====================
+      WIDE: CSS3 Effects
+     ==================== */
+  /* line 219, ../sass/main.scss */
+  .header-container,
+  .main aside {
+    -webkit-box-shadow: 0 5px 10px #aaa;
+    -moz-box-shadow: 0 5px 10px #aaa;
+    box-shadow: 0 5px 10px #aaa;
+  }
+
+  /* ============
+      WIDE: Menu
+     ============ */
+  /* line 230, ../sass/main.scss */
+  .title {
+    float: left;
+  }
+
+  /* line 235, ../sass/main.scss */
+  nav {
+    float: right;
+    width: 38%;
+  }
+
+  /* ============
+      WIDE: Main
+     ============ */
+  /* line 244, ../sass/main.scss */
+  .main article {
+    float: left;
+    width: 57%;
+  }
+
+  /* line 249, ../sass/main.scss */
+  .main aside {
+    float: right;
+    width: 28%;
+  }
+}
+@media only screen and (min-width: 1140px) {
+  /* ===============
+      Maximal Width
+     =============== */
+  /* line 261, ../sass/main.scss */
+  .wrapper {
+    width: 1026px;
+    /* 1140px - 10% for margins */
+    margin: 0 auto;
+  }
+}
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+/* line 271, ../sass/main.scss */
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+
+/* line 276, ../sass/main.scss */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/* line 287, ../sass/main.scss */
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+/* line 297, ../sass/main.scss */
+.invisible {
+  visibility: hidden;
+}
+
+/* line 301, ../sass/main.scss */
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+/* line 307, ../sass/main.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 311, ../sass/main.scss */
+.clearfix {
+  *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+@media print {
+  /* line 320, ../sass/main.scss */
+  *,
+  *:before,
+  *:after {
+    background: transparent !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  /* line 329, ../sass/main.scss */
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  /* line 334, ../sass/main.scss */
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  /* line 338, ../sass/main.scss */
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  /* line 342, ../sass/main.scss */
+  a[href^="#"]:after,
+  a[href^="javascript:"]:after {
+    content: "";
+  }
+
+  /* line 347, ../sass/main.scss */
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  /* line 353, ../sass/main.scss */
+  thead {
+    display: table-header-group;
+  }
+
+  /* line 357, ../sass/main.scss */
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  /* line 362, ../sass/main.scss */
+  img {
+    max-width: 100% !important;
+  }
+
+  /* line 366, ../sass/main.scss */
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  /* line 373, ../sass/main.scss */
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
