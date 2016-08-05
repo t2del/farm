@@ -1,5 +1,6 @@
 $colorize: #008B8B; 		/* #f16529  */
 $dark-colorize: #2F4F4F;	/* #e44d26 */
+$light-dark-colorize: #20B2AA;
 
 html {
     color: #222;
@@ -99,7 +100,7 @@ nav ul {
     list-style-type: none;
 }
 
-nav a {
+nav a{
     display: block;
     margin-bottom: 10px;
     padding: 15px 0;
@@ -112,14 +113,12 @@ nav a {
     background: $dark-colorize;
 }
 
-nav a:hover,
-nav a:visited {
+nav a:hover {
     color: white;
+	background: $light-dark-colorize;
+	text-decoration: none;
 }
 
-nav a:hover {
-    text-decoration: underline;
-}
 
 /* ==============
     MOBILE: Main
@@ -250,6 +249,10 @@ nav a:hover {
         float: right;
         width: 28%;
     }
+	
+	.main .full-width {
+		width:100%;
+	}
 }
 
 @media only screen and (min-width: 1140px) {
