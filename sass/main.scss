@@ -1,6 +1,6 @@
-$colorize: #008B8B; 		/* #f16529  */
-$dark-colorize: #2F4F4F;	/* #e44d26 */
-$light-dark-colorize: #20B2AA;
+$colorize: #196811; 		/* #f16529  */
+$dark-colorize: #074600;	/* #e44d26 */
+$light-dark-colorize: #5FAE57;
 
 html {
     color: #222;
@@ -73,6 +73,8 @@ body {
 
 .header-container {
     border-bottom: 20px solid $dark-colorize;
+	/* position:fixed;
+	width: 100%; */
 }
 
 .footer-container,

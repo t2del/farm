@@ -1,0 +1,47 @@
+$bg-color: #999999;
+
+/* Banner image begin */
+#farmbanner{
+	width: 100%;
+	
+	img {
+		width:  100%;
+		height: 400px;
+		position: static;
+		z-index:-1;
+	}
+	
+	.title_banner_container{
+		margin:auto;
+		width: 100%;
+		top: 50%;
+		position:absolute;
+		z-index: 999999;
+		//background:$bg-color;
+		
+		.welcome_title {
+			margin:auto;
+			width:50%;
+			line-height: 1.4;
+			color: #fff;
+			font: 3em Helvetica, Helvetica Neue, Arial;
+			//background:$bg-color;
+		}
+	}
+}
+@media only screen and (min-width: 480px) {
+	#farmbanner{
+		.title_banner_container{
+			top: 40%;
+		}
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	#farmbanner{
+		.title_banner_container{
+			top: 30%;
+		}
+	}
+}
+/* Banner image end */
